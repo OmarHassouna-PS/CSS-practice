@@ -1,0 +1,27 @@
+.Main {
+    background-color: rgb(235, 212, 177);
+    border-right: 2px solid black;
+    height: 600px;
+    
+} 
+
+.Paragraph-1 {
+    width: calc((100% - 40px)/3); 
+    float: left; 
+    background-color: rgb(206, 212, 212);
+    margin: 0px 10px 0px 0px;
+    height: 100px;  
+    overflow: hidden;
+}
+.Paragraph-2 {
+    overflow-y: scroll;
+    height: 75px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-right: 5px;
+}
+.clearfix {
+  overflow: auto;
+}
