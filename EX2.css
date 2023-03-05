@@ -1,0 +1,20 @@
+main div {
+    width: 100px;
+    height: 60px;
+    background-color: rgb(255, 0, 0);
+    display: inline-block;
+    margin-left: 5px;
+    text-align: center;
+    border: 2px solid black;
+}
+
+main :nth-child(even) {
+    display: none;
+}
+
+main div p {
+    position: relative;
+    top: 6px;
+    color: aliceblue;
+    font-weight: 700;
+}
