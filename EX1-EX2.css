@@ -1,0 +1,38 @@
+.EX1 div {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 238, 0);
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.EX1 :nth-child(even) {
+    background-color: green;
+    position: relative;
+    top: 40px;
+}
+
+.EX2 div {
+    width: 100px;
+    height: 60px;
+    background-color: rgb(255, 0, 0);
+    display: inline-block;
+    margin-left: 5px;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.EX2 :nth-child(even) {
+    display: none;
+}
+
+.EX2 div p {
+    position: relative;
+    top: 6px;
+    color: aliceblue;
+    font-weight: 700;
+}
+
+hr {
+    margin: 100px;
+}
